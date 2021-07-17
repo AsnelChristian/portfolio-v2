@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5d5783cd-1b2e-48d2-833d-7f42b6e36a55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Hero/styles/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Hero/styles/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/NavBar/styles/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/NavBar/styles/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globalStyles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\components\button\styles" />
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\fonts" />
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\styles" />
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src" />
@@ -77,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626381810751</updated>
-      <workItem from="1626381812518" duration="10294000" />
+      <workItem from="1626381812518" duration="40537000" />
     </task>
     <servers />
   </component>

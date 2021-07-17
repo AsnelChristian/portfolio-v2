@@ -20,9 +20,15 @@ const globalStyle = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${(props) => props.theme.colors.background};
-    color: ${(props) => props.theme.colors.primaryDark};
+    background: ${(props) => props.theme.colors.background1};
+    color: ${(props) => props.theme.colors.black};
     cursor: default;
+    min-height: 100vh;
+    padding: 0 5rem;
+  }
+  #root {
+    display: grid;
+    grid-template-columns: [full-start] 1fr [center-start] repeat(14, [col-start] minmax(min-content, 9.14rem) [col-end]) [center-end] 1fr [full-end]
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${(props) => props.theme.fonts.title};
@@ -30,7 +36,7 @@ const globalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  li{
+  ul {
     list-style: none;
   }
 `;
