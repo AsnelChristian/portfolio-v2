@@ -1,0 +1,10 @@
+{
+  "socialMedia" : [
+    { "name": "linkedin", "linksTo": "https://linkedin.com/in/asnelchristian" },
+    { "name": "xing", "linksTo": "https://www.xing.com/profile/ChristianAsnel_NgoullaSob" },
+    { "name": "github", "linksTo": "https://github.com/asnelchristian" },
+    { "name": "gitlab", "linksTo": "https://gitlab.com/asnelchristian" },
+    { "name": "twitter", "linksTo": "https://twitter.com/SobAsnel" }
+  ],
+  "email": "ngoullasob@gmail.com"
+}

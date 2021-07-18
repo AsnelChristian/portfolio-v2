@@ -27,7 +27,7 @@ export const Btn = styled.button`
     content: '';
     position: absolute;
     width: ${(props) => (props.primary ? '0' : 'calc(100% - .5rem)')};
-    height: 50%;
+    height: calc(50% + 1px);
     transition: 0.4s ease-in;
     background-color: ${(props) => props.theme.colors.white};
     z-index: 10;

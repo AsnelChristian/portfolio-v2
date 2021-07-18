@@ -2,12 +2,20 @@ import styled from 'styled-components/macro';
 
 export const Container = styled.section`
   grid-column: center-start/center-end;
-  min-height: 90vh;
-  padding: 0 8rem;
+  min-height: 100vh;
+  margin: 0 8rem;
+  padding-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 0 4rem;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 0 6rem;
+  }
 `;
 
 export const HeroBlock = styled.div`
@@ -19,20 +27,6 @@ export const HeroBlock = styled.div`
   position: relative;
   z-index: 10;
   align-items: start;
-`;
-
-export const HeroMainText = styled.h1`
-  font-size: clamp(2rem, 8vw, 6rem);
-  width: max-content;
-  margin-top: -0.1rem;
-  margin-bottom: 2rem;
-`;
-export const HeroSubText = styled.h2`
-  font-size: 3rem;
-`;
-export const HeroMiniText = styled.h3`
-  line-height: 3rem;
-  font-size: 2rem;
 `;
 
 export const HeroCTA = styled.ul`
@@ -50,7 +44,7 @@ export const HeroCTA = styled.ul`
 
 export const BgContainer = styled.div`
   position: absolute;
-  top: 50%;
+  top: calc(50% + 5rem);
   width: 50%;
   right: 0;
   transform: translateY(-50%);

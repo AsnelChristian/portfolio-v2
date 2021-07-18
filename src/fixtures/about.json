@@ -1,0 +1,37 @@
+{
+  "clauses": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun"],
+  "timeline": [
+    {
+      "row": 4,
+      "length": 5,
+      "start": 0,
+      "title": "BSc. Computer Science",
+      "description": "Completed a bachelors in computer science at the University of Buea (Cameroon)",
+      "period": "14-18"
+    },
+    {
+      "row": 3,
+      "length": 2,
+      "start": 2,
+      "title": "Code maintainer",
+      "description": "Contributed to the open source project <em>coala.io<em>.",
+      "period": "16-17"
+    },
+    {
+      "row": 2,
+      "length": 2,
+      "start": 5,
+      "title": "Freelance developer",
+      "description": "",
+      "period": "19-20"
+    },
+    {
+      "row": 1,
+      "length": 2,
+      "start": 6,
+      "title": "MSc. Web and Data Science",
+      "description": "At the University of Koblenz Landau",
+      "period": "20~"
+    }
+  ]
+}

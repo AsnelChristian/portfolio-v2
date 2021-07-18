@@ -12,13 +12,14 @@ export default {
     background2: '#fdf5ef',
     background3: 'linear-gradient(to left,#2dd881,#2278BF)',
     background4: 'linear-gradient(to right,#2dd881,#2278BF)',
+    background5: 'linear-gradient(to bottom, #fdf5ee, #fff)',
     black: '#003459',
     primary1: '#2278BF',
     primary2: '#2dd881',
     secondary: '#e36397',
-    ternary1: '#aacdda',
-    ternary2: '#ffeec4',
-    ternary3: '#dacdff',
+    ternary1: '131, 232, 181',
+    ternary2: '255, 238, 196',
+    ternary3: '218, 205, 255',
   },
   // Shadows
   shadows: {
@@ -27,9 +28,11 @@ export default {
   },
   // Breakpoints for responsive design
   breakpoints: {
-    sm: 'screen and (max-width: 640px)',
-    md: 'screen and (max-width: 768px)',
-    lg: 'screen and (max-width: 1024px)',
-    xl: 'screen and (max-width: 1280px)',
+    phone: 'screen and (max-width: 47.5em)',
+    sm: 'screen and (max-width: 47.5em)',
+    md: 'screen and (max-width: 60em)',
+    lg: 'screen and (max-width: 64em)',
+    xl: 'screen and (max-width: 75em)',
+    xxl: 'screen and (min-width: 112.5em)',
   },
 };

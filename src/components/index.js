@@ -1,0 +1,9 @@
+export { default as About } from './About';
+export { default as BgAnimation } from './BgAnimation';
+export { default as Button } from './button';
+export { default as Header } from './Hero';
+export { default as Navigation } from './NavBar';
+export { default as NavLink } from './NavLink';
+export { default as StickyInfo } from './StickyInfo';
+export { default as TimelineTile } from './Tile';
+export { default as Typography } from './Typography';

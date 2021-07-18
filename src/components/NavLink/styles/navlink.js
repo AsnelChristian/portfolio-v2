@@ -5,13 +5,16 @@ export const Link = styled.a`
   text-decoration: none;
   font-size: 2rem;
   font-family: ${(props) => props.theme.fonts.nav};
-  color: inherit;
+  color: ${(props) => props.theme.colors.black};
   display: inline-flex;
   position: relative;
   transition: all 0.2s;
   padding: 1.5rem 0;
   margin: 1rem 3.5rem 1rem 1rem;
 
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 1rem 1.7rem 1rem 1rem;
+  }
   &::after {
     content: '';
     position: absolute;
