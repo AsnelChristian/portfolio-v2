@@ -20,6 +20,7 @@ export const Btn = styled.button`
   & > * {
     position: relative;
     z-index: 100;
+    min-width: max-content;
   }
 
   &::after,
