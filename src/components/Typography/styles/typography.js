@@ -40,9 +40,13 @@ export const HeroMiniText = styled.h3`
   font-size: 2rem;
 `;
 
+export const AboutMain = styled.h2`
+  font-size: 4rem;
+  margin-bottom: 3rem;
+`;
+
 export const Clause = styled.p`
-  font-size: 2rem;
   line-height: 3rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 `;

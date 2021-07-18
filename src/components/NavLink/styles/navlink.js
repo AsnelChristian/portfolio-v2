@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 
-export const Link = styled.a`
+export const Link = styled.span`
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;

@@ -10,14 +10,14 @@ export function AboutContainer() {
       <Typography.SectionTitle>About me</Typography.SectionTitle>
       <About.Description>
         <About.DescriptionStory>
+          <Typography.AboutMain>{aboutData.main}</Typography.AboutMain>
           {aboutData.clauses.map((clause) => (
             <Typography.Clause>{clause}</Typography.Clause>
           ))}
         </About.DescriptionStory>
         <About.DescriptionImage />
       </About.Description>
-      <Typography.SubSectionTitle>My timeline</Typography.SubSectionTitle>
-
+      {/* <Typography.SubSectionTitle>My timeline</Typography.SubSectionTitle> */}
       <About.Timeline>
         {aboutData.timeline.map((timeline) => (
           <TimelineTile row={timeline.row} length={timeline.length} start={timeline.start}>

@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: start;
   margin: 0 8rem;
+  padding-top: 12rem;
   position: relative;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 0 4rem;
@@ -18,10 +19,11 @@ export const Container = styled.div`
     content: '';
     position: absolute;
     right: 0;
-    top: 0;
-    height: 5rem;
-    width: 5rem;
+    top: 12rem;
+    height: 4rem;
+    width: 4rem;
     border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     background: linear-gradient(
       to top right,
       #fff,
@@ -37,7 +39,8 @@ export const DescriptionContainer = styled.div`
   justify-content: space-between;
   flex-flow: row-reverse;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column;
@@ -50,12 +53,15 @@ export const DescriptionStoryContainer = styled.div`
 export const DescriptionImageContainer = styled.div`
   overflow: hidden;
   border-radius: 2rem;
-  box-shadow: 0 52px 74px rgba(0, 21, 64, 0.138559);
+  box-shadow: 0 10px 50px rgba(0, 21, 64, 0.128559);
   max-width: 45rem;
   width: 100%;
-  margin: 0 auto 4em;
   min-width: 30rem;
   height: 40rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 0 auto 4em;
+  }
 `;
 export const TimelineContainer = styled.div`
   display: grid;

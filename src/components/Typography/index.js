@@ -1,4 +1,12 @@
-import { SectionTitle, HeroMainText, HeroMiniText, HeroSubText, Clause, SubSectionTitle } from './styles/typography';
+import {
+  SectionTitle,
+  HeroMainText,
+  HeroMiniText,
+  HeroSubText,
+  Clause,
+  SubSectionTitle,
+  AboutMain,
+} from './styles/typography';
 
 export default function Typography({ children, ...restProps }) {
   return <></>;
@@ -17,6 +25,10 @@ Typography.HeroSub = function TypographySubHero({ children, ...restProps }) {
 };
 Typography.HeroMini = function TypographyMiniHero({ children, ...restProps }) {
   return <HeroMiniText {...restProps}>{children}</HeroMiniText>;
+};
+
+Typography.AboutMain = function TypographyAboutMain({ children, ...restProps }) {
+  return <AboutMain {...restProps}>{children}</AboutMain>;
 };
 Typography.Clause = function TypographyClause({ children, ...restProps }) {
   return <Clause {...restProps}>{children}</Clause>;

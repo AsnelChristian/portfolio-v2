@@ -1,0 +1,27 @@
+[
+  {
+    "title": "The observers",
+    "image": "/images/the.png",
+    "link": "https://theobservers.org",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur delectus distinctio doloribus earum iusto, minima porro praesentium sunt voluptate.",
+    "technologies": [
+      {"name":  "javascript", "icon": "javascript"},
+      {"name":  "sass", "icon": "sass"},
+      {"name":  "html5", "icon": "html5"},
+      {"name":  "node.js", "icon": "node-dot-js"}
+    ]
+  },
+  {
+    "title": "Fund lives",
+    "image": "/images/fundlives.png",
+    "link": "https://fundlives.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur delectus distinctio doloribus earum iusto, minima porro praesentium sunt voluptate.",
+    "technologies": [
+      {"name":  "javascript", "icon": "javascript"},
+      {"name":  "sass", "icon": "sass"},
+      {"name":  "html5", "icon": "html5"},
+      {"name":  "python", "icon": "python"},
+      {"name":  "flask", "icon": "flask"}
+    ]
+  }
+]

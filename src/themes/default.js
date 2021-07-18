@@ -25,6 +25,8 @@ export default {
   shadows: {
     subtle: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;',
     normal: 'rgba(149, 157, 165, 0.2) 0px 8px 24px;',
+    blend: '0 5px 10px rgba(0, 21, 64, 0.138559)',
+    blend2: '0 8px 24px rgba(0, 21, 64, 0.25)',
   },
   // Breakpoints for responsive design
   breakpoints: {
