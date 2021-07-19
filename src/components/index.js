@@ -7,3 +7,4 @@ export { default as NavLink } from './NavLink';
 export { default as StickyInfo } from './StickyInfo';
 export { default as TimelineTile } from './Tile';
 export { default as Typography } from './Typography';
+export { default as ContactForm } from './contactForm';

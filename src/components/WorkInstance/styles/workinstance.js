@@ -18,6 +18,14 @@ export const Section = styled.section`
 
 export const Container = styled.div`
   width: 100%;
+  padding: 7rem 5rem;
+  border-radius: 3rem;
+  background: linear-gradient(
+    ${(props) => (props.flow ? 'to right bottom' : 'to top left')},
+    rgba(45, 216, 129, 0.4),
+    rgba(34, 120, 191, 0.4),
+    rgba(180, 153, 255, 0.2)
+  );
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(12, 1fr);
@@ -27,7 +35,7 @@ export const Container = styled.div`
 export const ViewContainer = styled.a`
   cursor: pointer;
   display: block;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   grid-row: 1/-1;
   grid-column: ${(props) => (props.flow ? '1 / 9' : '-9 / -1')};
   height: 45rem;
@@ -47,12 +55,9 @@ export const ViewContainer = styled.a`
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.3),
-      rgba(${(props) => props.theme.colors.ternary2}, 0.3)
+      rgba(${(props) => props.theme.colors.ternary2}, 0.4)
     );
     transition: opacity 0.3s ease-in-out;
-  }
-  &:hover {
-    z-index: 100;
   }
   &:hover::after {
     opacity: 0;
@@ -60,7 +65,7 @@ export const ViewContainer = styled.a`
 `;
 
 export const View = styled.img`
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
   position: absolute;
   z-index: 10;
@@ -85,7 +90,7 @@ export const Title = styled.a`
   position: relative;
 
   &:hover {
-    color: ${(props) => props.theme.colors.primary2};
+    color: ${(props) => props.theme.colors.white};
   }
 `;
 
@@ -118,7 +123,7 @@ export const DescContainer = styled.div`
   line-height: 1.7rem;
 `;
 export const ToolsContainer = styled.ul`
-  max-width: 80%;
+  max-width: 85%;
   flex-wrap: wrap;
   margin-top: -1.3rem;
   display: flex;

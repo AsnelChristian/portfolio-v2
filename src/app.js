@@ -2,6 +2,7 @@ import Theme from './styles/theme';
 import { HeaderContainer } from './containers/header';
 import { AboutContainer } from './containers/about';
 import { WorksContainer } from './containers/works';
+import { ContactContainer } from './containers/contact';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <HeaderContainer />
       <AboutContainer />
       <WorksContainer />
+      <ContactContainer />
     </Theme>
   );
 }

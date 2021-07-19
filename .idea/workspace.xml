@@ -6,15 +6,9 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/styles/about-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/styles/about-section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavLink/styles/navlink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavLink/styles/navlink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/styles/typography.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/styles/typography.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fixtures/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/about.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fixtures/protfolio.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/protfolio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globalStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/default.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,11 @@
       <updated>1626381810751</updated>
       <workItem from="1626381812518" duration="40537000" />
       <workItem from="1626512000005" duration="27307000" />
-      <workItem from="1626592955633" duration="30879000" />
+      <workItem from="1626592955633" duration="34499000" />
+      <workItem from="1626682965298" duration="643000" />
+      <workItem from="1626692658240" duration="300000" />
+      <workItem from="1626696606235" duration="4079000" />
+      <workItem from="1626722474816" duration="8654000" />
     </task>
     <servers />
   </component>
