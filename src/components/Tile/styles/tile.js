@@ -46,7 +46,7 @@ export const CardInfo = styled.p`
   font-family: ${(props) => props.theme.fonts.nav};
   font-style: italic;
   font-size: 1.4rem;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
   margin-bottom: 1rem;
 `;
 

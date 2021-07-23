@@ -15,6 +15,11 @@ export const Container = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 0 4rem 12rem;
   }
+  @media ${(props) => props.theme.breakpoints.phone} {
+    margin: 0 0 12rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 `;
 export const FormContainer = styled.div`
   width: 100%;

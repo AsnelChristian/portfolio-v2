@@ -8,6 +8,7 @@ export const StickyContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: -10;
 
   @media ${(props) => props.theme.breakpoints.md} {
     left: ${(props) => (props.loc === 'left' ? '3rem' : 'auto')};

@@ -14,6 +14,9 @@ export const Section = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 0 4rem;
   }
+  @media ${(props) => props.theme.breakpoints.phone} {
+    margin: 0;
+  }
 `;
 
 export const Container = styled.div`

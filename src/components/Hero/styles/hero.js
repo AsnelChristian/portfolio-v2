@@ -11,10 +11,13 @@ export const Container = styled.section`
   position: relative;
 
   @media ${(props) => props.theme.breakpoints.md} {
+    margin: 0 6rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
     margin: 0 4rem;
   }
-  @media ${(props) => props.theme.breakpoints.md} {
-    margin: 0 6rem;
+  @media ${(props) => props.theme.breakpoints.phone} {
+    margin: 0;
   }
 `;
 

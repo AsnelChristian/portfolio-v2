@@ -1,13 +1,13 @@
 {
-  "main": "I write programs to make life easier.",
-  "clauses": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis consequatur consequun"],
+  "main": "I write programs...",
+  "clauses": ["I am a software developer with a passion for web development and data science.", "I firmly believe it takes not only functionalities but also looks and feel to make a product complete; as such, my interests lie in full-stack development, machine learning and data analysis.", "I enjoy learning and exploring new technologies because I believe, as a developer, technology shouldn't be a constraint."],
   "timeline": [
     {
       "row": 4,
       "length": 5,
       "start": 0,
       "title": "BSc. Computer Science",
-      "description": "Completed a bachelors in computer science at the University of Buea (Cameroon)",
+      "description": "Completed a bachelor in computer science at the University of Buea (Cameroon).",
       "period": "2014-18"
     },
     {
@@ -15,7 +15,7 @@
       "length": 2,
       "start": 2,
       "title": "Code maintainer",
-      "description": "Contributed to the open source project <em>coala.io<em>.",
+      "description": "Contributed to the extension of the open-source project coala.io, through the google summer of code program.",
       "period": "2016-17"
     },
     {
@@ -23,7 +23,7 @@
       "length": 2,
       "start": 5,
       "title": "Freelance developer",
-      "description": "",
+      "description": "Was hired and worked on a few web development projects as a full stack developer.",
       "period": "2019-20"
     },
     {
@@ -31,7 +31,7 @@
       "length": 2,
       "start": 6,
       "title": "MSc. Web and Data Science",
-      "description": "At the University of Koblenz Landau",
+      "description": "At the University of Koblenz Landau (Germany).",
       "period": "2020~"
     }
   ]

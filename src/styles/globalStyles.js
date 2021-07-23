@@ -43,6 +43,10 @@ const globalStyle = createGlobalStyle`
   #root {
     display: grid;
     grid-template-columns: [full-start] 1fr [center-start] repeat(14, [col-start] minmax(min-content, 9.14rem) [col-end]) [center-end] 1fr [full-end];
+    @media ${(props) => props.theme.breakpoints.sm} {
+      grid-template-columns: [center-start] 1fr [center-end];
+    }
+    
     position: relative;
   }
   h1,h2,h3,h4,h5,h6,button {
