@@ -30,7 +30,7 @@ export default {
   },
   // Breakpoints for responsive design
   breakpoints: {
-    phone: 'screen and (max-width: 47.5em)',
+    phone: 'screen and (max-width: 33.5em)',
     sm: 'screen and (max-width: 47.5em)',
     md: 'screen and (max-width: 60em)',
     lg: 'screen and (max-width: 64em)',

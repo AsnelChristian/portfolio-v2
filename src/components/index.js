@@ -8,3 +8,6 @@ export { default as StickyInfo } from './StickyInfo';
 export { default as TimelineTile } from './Tile';
 export { default as Typography } from './Typography';
 export { default as ContactForm } from './contactForm';
+export { default as SkillCard } from './skillCard';
+export { default as Skills } from './skills';
+export { default as Terminal } from './terminal';

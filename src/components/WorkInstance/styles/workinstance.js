@@ -8,17 +8,27 @@ export const Section = styled.section`
   margin: 0 8rem;
   padding-top: 12rem;
   position: relative;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 0 4rem;
-  }
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 0 6rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 0 4rem;
   }
 `;
 
 export const Container = styled.div`
   width: 100%;
-  padding: 7rem 5rem;
+  padding: 5rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 3rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 2rem;
+  }
+  @media ${(props) => props.theme.breakpoints.phone} {
+    padding: 1rem;
+    box-shadow: ${(props) => props.theme.shadows.blend};
+  }
   border-radius: 3rem;
   background: linear-gradient(
     ${(props) => (props.flow ? 'to right bottom' : 'to top left')},
@@ -35,9 +45,18 @@ export const Container = styled.div`
 export const ViewContainer = styled.a`
   cursor: pointer;
   display: block;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   grid-row: 1/-1;
-  grid-column: ${(props) => (props.flow ? '1 / 9' : '-9 / -1')};
+  grid-column: ${(props) => (props.flow ? '1 / 10' : '-10 / -1')};
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-column: ${(props) => (props.flow ? '1 / 11' : '-11 / -1')};
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-column: ${(props) => (props.flow ? '1 / 12' : '-12 / -1')};
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-column: ${(props) => (props.flow ? '1 / 13' : '-13 / -1')};
+  }
   height: 45rem;
   width: 100%;
   position: relative;
@@ -88,7 +107,11 @@ export const Title = styled.a`
   cursor: pointer;
   transition: all 0.2s ease;
   position: relative;
-
+  @media ${(props) => props.theme.breakpoints.md} {
+    background: ${(props) => props.theme.colors.background1};
+    padding: 1rem 2rem;
+    z-index: 20;
+  }
   &:hover {
     color: ${(props) => props.theme.colors.white};
   }
@@ -96,16 +119,39 @@ export const Title = styled.a`
 
 export const InfoContainer = styled.div`
   grid-row: 1/-1;
-  grid-column: ${(props) => (props.flow ? '8 / -1' : '1 / 6')};
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 15;
+  padding: 2rem 3rem;
+
+  grid-column: ${(props) => (props.flow ? '7 / -1' : '1 / 7')};
+  border-top-right-radius: ${(props) => (props.flow ? '2rem' : '0')};
+  border-bottom-right-radius: ${(props) => (props.flow ? '2rem' : '0')};
+  border-top-left-radius: ${(props) => (props.flow ? '0' : '2rem')};
+  border-bottom-left-radius: ${(props) => (props.flow ? '0' : '2rem')};
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-column: ${(props) => (props.flow ? '6 / -1' : '1 / 9')};
+  }
+
+  // Smaller
+  @media ${(props) => props.theme.breakpoints.phone} {
+    grid-row: 2;
+    margin-top: -10rem;
+    grid-column: 1/-1;
+    padding: 6rem 3rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
   display: flex;
   flex-direction: column;
   align-items: ${(props) => (props.flow ? 'flex-end' : 'flex-start')};
   justify-content: center;
 `;
 export const DescContainer = styled.div`
-  padding: 2rem 3rem;
+  padding: 3rem 3rem;
   background-color: rgba(0, 52, 89, 0.8);
-  min-height: 15rem;
   max-height: 20rem;
   overflow: hidden;
   width: 100%;
@@ -121,11 +167,15 @@ export const DescContainer = styled.div`
   font-weight: 200;
   font-size: 1.4rem;
   line-height: 1.7rem;
+  box-shadow: ${(props) => props.theme.shadows.blend};
 `;
 export const ToolsContainer = styled.ul`
-  max-width: 85%;
+  max-width: 100%;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    max-width: 100%;
+  }
   flex-wrap: wrap;
-  margin-top: -1.3rem;
+  margin-top: -2rem;
   display: flex;
   align-items: ${(props) => (props.flow ? 'flex-end' : 'flex-start')};
   flex-direction: ${(props) => (props.flow ? 'row-reverse' : 'row')};
@@ -138,7 +188,7 @@ export const ToolsContainer = styled.ul`
       margin-right: ${(props) => (props.flow ? '0' : '1rem')};
       background: ${(props) => props.theme.colors.background1} !important;
       padding: 1rem;
-      box-shadow: none !important;
+      box-shadow: ${(props) => props.theme.shadows.blend} !important;
     }
   }
 `;

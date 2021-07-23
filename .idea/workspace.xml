@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5783cd-1b2e-48d2-833d-7f42b6e36a55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/styles/about-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/styles/about-section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/styles/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/styles/navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contactForm/styles/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/styles/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fixtures/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skillCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skillCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skillCard/styles/skillCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skillCard/styles/skillCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/terminal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/hero.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/hero.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/protfolio.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/protfolio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/stack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/default.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +64,11 @@
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\components" />
       <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src" />
-      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\components\button\styles" />
-      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\fonts" />
-      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\styles" />
+      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\public" />
+      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\public\dowloads" />
+      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\fixtures" />
+      <recent name="C:\Users\Asnel\Desktop\Masters\mycodes\myweb\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -86,7 +100,14 @@
       <workItem from="1626682965298" duration="643000" />
       <workItem from="1626692658240" duration="300000" />
       <workItem from="1626696606235" duration="4079000" />
-      <workItem from="1626722474816" duration="8654000" />
+      <workItem from="1626722474816" duration="17514000" />
+      <workItem from="1626777409298" duration="9243000" />
+      <workItem from="1626811235884" duration="10621000" />
+      <workItem from="1626868908924" duration="21794000" />
+      <workItem from="1626949335684" duration="3163000" />
+      <workItem from="1626965067700" duration="390000" />
+      <workItem from="1626965793699" duration="9092000" />
+      <workItem from="1627042889906" duration="594000" />
     </task>
     <servers />
   </component>

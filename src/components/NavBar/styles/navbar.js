@@ -1,25 +1,31 @@
 import styled from 'styled-components';
 
 export const NavBar = styled.div`
-  display: flex;
+  display: ${(props) => (props.show ? 'flex' : 'flex')};
+  opacity: ${(props) => (props.show ? '1' : '0')};
+  transform: ${(props) => (props.show ? 'translateY(0)' : 'translateY(-4rem)')};
+  background-color: ${(props) => (props.shadow ? 'rgba(255, 255, 255, .4)' : 'transparent')};
+  box-shadow: ${(props) => (props.shadow ? '0px 3px 8px rgba(0,0,0,0.1)' : 'none')};
+  backdrop-filter: ${(props) => (props.shadow ? 'blur(10px)' : 'none')};
+
   align-items: center;
   justify-content: space-between;
   font-size: 2rem;
   margin-bottom: 5rem;
   position: fixed;
   top: 0;
-  left: 5rem;
+  left: 0;
+  padding: 0 5rem;
   z-index: 9999;
-  width: calc(100% - 10rem);
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin-top: 3rem;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    width: calc(100% - 6rem);
-    left: 3rem;
-  }
-
+  width: 100%;
   transition: all 0.3s ease-in-out;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 0 3rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 3rem;
+  }
 `;
 
 export const Nav = styled.ul`
@@ -69,5 +75,35 @@ export const NavBtn = styled.div`
   &:hover::before {
     // background: ${(props) => props.theme.colors.background3};
     width: 100%;
+  }
+`;
+
+export const MenuContainer = styled.div`
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: ${(props) => (props.open ? 'flex' : 'none')};
+  transform: ${(props) => (props.open ? 'translateY(0)' : 'translateY(-4rem)}')};
+  opacity: ${(props) => (props.open ? 1 : 0)};
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+`;
+
+export const Menu = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem !important;
+
+  & > * {
+    &:not(last-child) {
+      margin-top: 1rem;
+    }
   }
 `;

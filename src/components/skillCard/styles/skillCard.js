@@ -4,14 +4,16 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 8rem;
-  width: 8rem;
+  height: 7.5rem;
+  width: 7.5rem;
   padding: 1rem;
   justify-content: center;
-  background-color: ${(props) => props.theme.colors.white};
-  margin-bottom: 1rem;
+  margin: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+
+  box-shadow: ${(props) => (props.active && props.shadow ? props.theme.shadows.blend2 : 'none')};
+  background-color: ${(props) => (props.active && props.shadow ? 'transparent' : props.theme.colors.white)};
 
   &:hover {
     box-shadow: ${(props) => props.theme.shadows.blend};
@@ -26,7 +28,7 @@ export const Card = styled.div`
 export const CardIcon = styled.svg`
   width: 3.5rem;
   height: 3.5rem;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.1rem;
 `;
 
 export const CardName = styled.p`
@@ -34,5 +36,4 @@ export const CardName = styled.p`
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.2rem;
-  margin-bottom: 1rem;
 `;

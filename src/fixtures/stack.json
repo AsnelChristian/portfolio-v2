@@ -1,0 +1,14 @@
+[
+  {"name":  "js", "icon": "javascript"},
+  {"name":  "sass", "icon": "sass"},
+  {"name":  "html5", "icon": "html5"},
+  {"name":  "python", "icon": "python"},
+  {"name":  "flask", "icon": "flask"},
+  {"name":  "css", "icon": "css3"},
+  {"name":  "firebase", "icon": "firebase"},
+  {"name":  "vue", "icon": "vue-dot-js"},
+  {"name":  "docker", "icon": "docker"},
+  {"name":  "git", "icon": "git"},
+  {"name":  "mongodb", "icon": "mongodb"},
+  {"name":  "react", "icon": "react"}
+]

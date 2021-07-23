@@ -1,14 +1,16 @@
 [
   {
-    "title": "The observers",
+    "title": "Observers",
     "image": "/images/the.png",
     "link": "https://theobservers.org",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur delectus distinctio doloribus earum iusto, minima porro praesentium sunt voluptate.",
+    "description": "Observers is an easy, accessible and smart platform that shows the world what people are feeling about an issue, where they are and what are their concerns.",
     "technologies": [
-      {"name":  "javascript", "icon": "javascript"},
+      {"name":  "js", "icon": "javascript"},
       {"name":  "sass", "icon": "sass"},
       {"name":  "html5", "icon": "html5"},
-      {"name":  "node.js", "icon": "node-dot-js"}
+      {"name":  "node.js", "icon": "node-dot-js"},
+      {"name":  "git", "icon": "git"},
+      {"name":  "mongodb", "icon": "mongodb"}
     ]
   },
   {
@@ -17,11 +19,12 @@
     "link": "https://fundlives.com",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur delectus distinctio doloribus earum iusto, minima porro praesentium sunt voluptate.",
     "technologies": [
-      {"name":  "javascript", "icon": "javascript"},
+      {"name":  "js", "icon": "javascript"},
       {"name":  "sass", "icon": "sass"},
       {"name":  "html5", "icon": "html5"},
       {"name":  "python", "icon": "python"},
-      {"name":  "flask", "icon": "flask"}
+      {"name":  "flask", "icon": "flask"},
+      {"name":  "git", "icon": "git"}
     ]
   }
 ]

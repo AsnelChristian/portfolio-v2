@@ -8,11 +8,11 @@ export const Container = styled.div`
   margin: 0 8rem;
   padding-top: 12rem;
   position: relative;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 0 4rem;
-  }
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 0 6rem;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 0 4rem;
   }
 
   &::after {
@@ -20,8 +20,8 @@ export const Container = styled.div`
     position: absolute;
     right: 0;
     top: 12rem;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     background: linear-gradient(
@@ -42,13 +42,17 @@ export const DescriptionContainer = styled.div`
   margin-top: 5rem;
   margin-bottom: 10rem;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     flex-direction: column;
     flex-flow: column-reverse;
   }
 `;
 export const DescriptionStoryContainer = styled.div`
   margin-left: 5rem;
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 5rem 2rem;
+    text-align: center;
+  }
 `;
 export const DescriptionImageContainer = styled.div`
   overflow: hidden;

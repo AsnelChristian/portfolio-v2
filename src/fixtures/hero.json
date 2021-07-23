@@ -1,5 +1,6 @@
 {
   "salutation": "Hello. I am",
   "name": "Asnel Christian",
-  "catchPhrases": ["I make stuffs that run on the web.", "I make sense of data."]
+  "catchPhrases": ["I make stuffs that run on the web.", "I make sense of data."],
+  "resume": "/downloads/Lebenslauf_9.pdf"
 }
