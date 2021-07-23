@@ -54,7 +54,7 @@ export function ContactContainer() {
   }
 
   function handleSubmit(event) {
-    console.log('something');
+    event.preventDefault();
     sendFeedback({ message, lastname: lastName, firstname: firstName, email, reply_to: email });
   }
 
