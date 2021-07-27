@@ -15,24 +15,26 @@ export const Section = styled.section`
     margin: 0 4rem;
   }
   @media ${(props) => props.theme.breakpoints.phone} {
-    margin: 0;
+    margin: 0 2rem;
   }
 `;
 
 export const Container = styled.div`
-  width: 100%;
-  padding: 5rem;
+  padding: 4rem;
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding: 3rem;
+    padding: 2.5rem;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2rem;
+    padding: 1.5rem;
   }
   @media ${(props) => props.theme.breakpoints.phone} {
-    padding: 1rem;
+    padding: 0;
     box-shadow: ${(props) => props.theme.shadows.blend};
   }
   border-radius: 3rem;
+  @media ${(props) => props.theme.breakpoints.phone} {
+    border-radius: 2rem;
+  }
   background: linear-gradient(
     ${(props) => (props.flow ? 'to right bottom' : 'to top left')},
     rgba(45, 216, 129, 0.4),
@@ -48,7 +50,7 @@ export const Container = styled.div`
 export const ViewContainer = styled.a`
   cursor: pointer;
   display: block;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   grid-row: 1/-1;
   grid-column: ${(props) => (props.flow ? '1 / 10' : '-10 / -1')};
   @media ${(props) => props.theme.breakpoints.lg} {
@@ -60,6 +62,11 @@ export const ViewContainer = styled.a`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-column: ${(props) => (props.flow ? '1 / 13' : '-13 / -1')};
   }
+  @media ${(props) => props.theme.breakpoints.phone} {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
   height: 45rem;
   width: 100%;
   position: relative;
@@ -87,7 +94,7 @@ export const ViewContainer = styled.a`
 `;
 
 export const View = styled.img`
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   overflow: hidden;
   position: absolute;
   z-index: 10;
@@ -99,6 +106,10 @@ export const View = styled.img`
   bottom: 0;
   background-size: cover;
   object-fit: cover;
+  @media ${(props) => props.theme.breakpoints.phone} {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 `;
 
 export const Title = styled.a`
@@ -111,12 +122,17 @@ export const Title = styled.a`
   transition: all 0.2s ease;
   position: relative;
   @media ${(props) => props.theme.breakpoints.md} {
-    background: ${(props) => props.theme.colors.background1};
+    background: ${(props) => props.theme.colors.bacground1};
     padding: 1rem 2rem;
     z-index: 20;
+    transition: background 0.2s ease-in-out, color 0.1s 0.2s ease-out;
   }
   &:hover {
     color: ${(props) => props.theme.colors.white};
+    @media ${(props) => props.theme.breakpoints.md} {
+      background: ${(props) => props.theme.colors.black};
+      color: ${(props) => props.theme.colors.white};
+    }
   }
 `;
 
@@ -146,6 +162,8 @@ export const InfoContainer = styled.div`
     padding: 6rem 3rem;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
   }
   display: flex;
   flex-direction: column;

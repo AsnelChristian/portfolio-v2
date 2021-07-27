@@ -6,8 +6,8 @@ import portfolioData from '../fixtures/protfolio.json';
 
 export function WorksContainer() {
   return (
-    <WorkInstance.Container id="Work">
-      <Typography.SectionTitle>Works</Typography.SectionTitle>
+    <WorkInstance.Container id="Projects">
+      <Typography.SectionTitle>Projects</Typography.SectionTitle>
       {portfolioData.map((work, index) => (
         <WorkInstance flow={index % 2}>
           <WorkInstance.View flow={index % 2} img={work.image} linksTo={work.link} />

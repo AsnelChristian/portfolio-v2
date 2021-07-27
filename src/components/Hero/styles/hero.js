@@ -41,6 +41,9 @@ export const HeroCTA = styled.ul`
   & > * {
     &:not(last-child) {
       margin-right: 5rem;
+      @media ${(props) => props.theme.breakpoints.phone} {
+        margin-right: 2.5rem;
+      }
     }
   }
 `;

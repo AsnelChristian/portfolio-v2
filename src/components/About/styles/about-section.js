@@ -15,7 +15,7 @@ export const Container = styled.div`
     margin: 0 4rem;
   }
   @media ${(props) => props.theme.breakpoints.phone} {
-    margin: 0;
+    margin: 0 2rem;
   }
 
   &::after {
@@ -38,7 +38,6 @@ export const Container = styled.div`
 `;
 export const DescriptionContainer = styled.div`
   display: flex;
-  width: 100%;
   justify-content: space-between;
   flex-flow: row-reverse;
   align-items: center;
@@ -61,6 +60,9 @@ export const DescriptionImageContainer = styled.div`
   overflow: hidden;
   border-radius: 2rem;
   box-shadow: 0 10px 50px rgba(0, 21, 64, 0.128559);
+  background-image: url('/images/IMG_4445.jpg');
+  background-size: cover;
+  object-fit: cover;
   max-width: 45rem;
   width: 100%;
   min-width: 30rem;

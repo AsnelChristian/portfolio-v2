@@ -14,7 +14,7 @@ export function HeaderContainer() {
   const [showShadow, setShowShadow] = useState(false);
   const [showDrawer, setShowDrawer] = useState(false);
 
-  const nav = ['Home', 'About', 'Skills', 'Work', 'Contact'];
+  const nav = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
   const MINIMUM_SCROLL = 80;
   const TIMEOUT_DELAY = 400;
 
@@ -72,7 +72,7 @@ export function HeaderContainer() {
           <Header.CTA>
             <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
               <Button primary>
-                <span>Resume</span>
+                <span>Resumé</span>
               </Button>
             </Link>
             <NavHashLink smooth to="#Contact">

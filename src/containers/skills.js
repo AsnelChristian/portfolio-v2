@@ -16,7 +16,7 @@ export function SkillsContainer() {
                 onInit={(typewriter) => {
                   typewriter
                     .pauseFor(250)
-                    .typeString('I have use several stack and languages so far.')
+                    .typeString('I have used several stack and languages so far.')
                     .pauseFor(700)
                     .deleteAll()
                     .typeString('<strong><span style="color: #27ae60;">Coding</span></strong> is like writing poems.')

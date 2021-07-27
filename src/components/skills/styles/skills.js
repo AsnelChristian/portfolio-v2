@@ -15,12 +15,11 @@ export const Container = styled.div`
     margin: 0 4rem;
   }
   @media ${(props) => props.theme.breakpoints.phone} {
-    margin: 0;
+    margin: 0 2rem;
   }
 `;
 
 export const SkillsContainer = styled.div`
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 `;

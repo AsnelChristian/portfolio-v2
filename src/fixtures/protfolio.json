@@ -3,7 +3,7 @@
     "title": "Observers",
     "image": "/images/the.png",
     "link": "https://theobservers.org",
-    "description": "Observers is an easy, accessible and smart platform that shows the world what people are feeling about an issue, where they are and what are their concerns.",
+    "description": "Observers is an easy, accessible, and smart platform that shows the world what people are feeling about an issue, where they are and what are their concerns.",
     "technologies": [
       {"name":  "js", "icon": "javascript"},
       {"name":  "sass", "icon": "sass"},

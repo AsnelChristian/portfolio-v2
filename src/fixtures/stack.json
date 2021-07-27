@@ -10,5 +10,7 @@
   {"name":  "docker", "icon": "docker"},
   {"name":  "git", "icon": "git"},
   {"name":  "mongodb", "icon": "mongodb"},
-  {"name":  "react", "icon": "react"}
+  {"name":  "react", "icon": "react"},
+  {"name":  "java", "icon": "java"},
+  {"name":  "mysql", "icon": "mysql"}
 ]
