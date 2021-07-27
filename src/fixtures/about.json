@@ -1,6 +1,6 @@
 {
   "main": "I write programs...",
-  "clauses": ["I am a software developer with a passion for web development and data science.", "I firmly believe it takes not only functionalities but also looks and feel to make a product complete; as such, my interests lie in full-stack development, machine learning and data analysis.", "I enjoy learning and exploring new technologies because I believe, as a developer, technology shouldn't be a constraint."],
+  "clauses": ["I am a software developer with a passion for web development and data science.", "I firmly believe it takes not only functionalities but also looks and feel to make a product complete; as such, my interests lie in full-stack development, machine learning, and data analysis.", "I enjoy learning and exploring new technologies because I believe, as a developer, technology shouldn't be a constraint."],
   "timeline": [
     {
       "row": 4,

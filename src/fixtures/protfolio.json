@@ -3,7 +3,7 @@
     "title": "Observers",
     "image": "/images/the.png",
     "link": "https://theobservers.org",
-    "description": "Observers is an easy, accessible, and smart platform that shows the world what people are feeling about an issue, where they are and what are their concerns.",
+    "description": "Observers is an easy, accessible, and smart platform that shows the world what people are feeling about an issue, where they are, and what are their concerns.",
     "technologies": [
       {"name":  "js", "icon": "javascript"},
       {"name":  "sass", "icon": "sass"},
@@ -17,7 +17,7 @@
     "title": "Fund lives",
     "image": "/images/fundlives.png",
     "link": "https://fundlives.com",
-    "description": "FundLives is a fundraising platform that provides a quick, transparent and easy way of raising funds for charitable causes or projects that matter to you.",
+    "description": "FundLives is a fundraising platform that provides a quick, transparent, and easy way of raising funds for charitable causes or projects that matter to you.",
     "technologies": [
       {"name":  "js", "icon": "javascript"},
       {"name":  "sass", "icon": "sass"},

@@ -1,4 +1,4 @@
-import { Form, FormGroup, Input, Label, TextArea, FormContainer, Container, Map } from './styles/form';
+import { Form, FormGroup, Input, Label, TextArea, FormContainer, Container, Map, Error } from './styles/form';
 
 export default function ContactForm({ children, ...restProps }) {
   return <Form {...restProps}>{children}</Form>;
@@ -12,9 +12,10 @@ ContactForm.Container = function ContactFormContainer({ children, ...restProps }
   return <FormContainer {...restProps}>{children}</FormContainer>;
 };
 
-ContactForm.Input = function ContactFormInput({ children, isInput, type, key, placeholder, ...restProps }) {
+ContactForm.Input = function ContactFormInput({ children, isInput, error, type, key, placeholder, ...restProps }) {
   return (
     <FormGroup>
+      <Error>{error}</Error>
       {isInput ? (
         <>
           <Input type={type} id={key} label={`${key}-label`} placeholder={placeholder} {...restProps} />

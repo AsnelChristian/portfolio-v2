@@ -108,3 +108,13 @@ export const Label = styled.label`
   color: ${(props) => props.theme.colors.black};
   transition: all 0.2s ease-in-out;
 `;
+
+export const Error = styled.p`
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: ${(props) => props.theme.colors.secondary};
+  transition: all 0.2s ease-in-out;
+`;

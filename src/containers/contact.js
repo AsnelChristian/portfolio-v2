@@ -3,15 +3,17 @@ import emailjs from 'emailjs-com';
 import { store } from 'react-notifications-component';
 
 import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { Typography, ContactForm, Button } from '../components';
 
 import emailKey from '../emailKey';
 
 export function ContactContainer() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+  } = useForm();
 
   function sendFeedback(variables) {
     emailjs
@@ -30,10 +32,6 @@ export function ContactContainer() {
             onScreen: true,
           },
         });
-        setFirstName('');
-        setLastName('');
-        setEmail('');
-        setMessage('');
       })
       // Handle errors here however you like, or use a React error boundary
       .catch((err) =>
@@ -53,8 +51,7 @@ export function ContactContainer() {
       );
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  function handleSendMessage({ message, lastName, firstName, email }) {
     sendFeedback({ message, lastname: lastName, firstname: firstName, email, reply_to: email });
   }
 
@@ -62,35 +59,35 @@ export function ContactContainer() {
     <ContactForm.Section id="Contact">
       <Typography.SectionTitle>Get in touch</Typography.SectionTitle>
       <ContactForm.Container>
-        <ContactForm onSubmit={handleSubmit}>
+        <ContactForm onSubmit={handleSubmit(handleSendMessage)}>
           <ContactForm.Input
             isInput
-            onChange={(event) => setFirstName(event.target.value)}
-            value={firstName}
+            error={errors.firstName && 'Please provide valid first name.'}
+            {...register('firstName', { required: true, maxLength: 20 })}
             type="text"
             placeholder="First name"
             key="contact-firstname"
           />
           <ContactForm.Input
             isInput
-            onChange={(event) => setLastName(event.target.value)}
-            value={lastName}
+            error={errors.lastName && 'Please provide a valid last name.'}
+            {...register('lastName', { required: true, maxLength: 20 })}
             type="text"
             placeholder="Last name"
             key="contact-lastname"
           />
           <ContactForm.Input
             isInput
-            onChange={(event) => setEmail(event.target.value)}
-            value={email}
+            error={errors.email && 'Please provide a valid email.'}
+            {...register('email', { required: true })}
             type="email"
             placeholder="Email"
             key="contact-email"
           />
           <ContactForm.Input
             type="text"
-            onChange={(event) => setMessage(event.target.value)}
-            value={message}
+            error={errors.message && 'Message should have at least 20 characters.'}
+            {...register('message', { required: true, minLength: 20 })}
             placeholder="Your message"
             key="contact-message"
           />

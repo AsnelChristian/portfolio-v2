@@ -47,7 +47,7 @@ export function HeaderContainer() {
 
           <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
             <Button primary>
-              <span>Resume</span>
+              <span>Resumé</span>
             </Button>
           </Link>
         </Navigation.Nav>
