@@ -1,3 +1,4 @@
+import parse from 'html-react-parser';
 import Typography from '../components/Typography';
 import About from '../components/About';
 import TimelineTile from '../components/Tile';
@@ -12,7 +13,7 @@ export function AboutContainer() {
         <About.DescriptionStory>
           <Typography.AboutMain>{aboutData.main}</Typography.AboutMain>
           {aboutData.clauses.map((clause) => (
-            <Typography.Clause>{clause}</Typography.Clause>
+            <Typography.Clause>{parse(clause)}</Typography.Clause>
           ))}
         </About.DescriptionStory>
         <About.DescriptionImage />
