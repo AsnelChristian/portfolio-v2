@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Typography, ContactForm, Button } from '../components';
 
-const { USER_ID, TEMPLATE_ID, SERVICE_ID }  = process.env;
+const { USER_ID, TEMPLATE_ID, SERVICE_ID } = process.env;
 
 export function ContactContainer() {
   const {
