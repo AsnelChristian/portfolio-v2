@@ -40,6 +40,7 @@ export const CardDescription = styled.div`
 `;
 
 export const CardTitle = styled.h4`
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 `;
 export const CardInfo = styled.p`
@@ -53,8 +54,8 @@ export const CardInfo = styled.p`
 export const CardPeriod = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: bold;
   font-family: ${(props) => props.theme.fonts.nav};
   min-width: max-content;

@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5783cd-1b2e-48d2-833d-7f42b6e36a55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/GitHub_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TimeLine/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TimeLine/styles/timeLine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fixtures/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/about.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/components/Tile/styles/tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tile/styles/tile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkInstance/styles/workinstance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skillCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skillCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skillCard/styles/skillCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skillCard/styles/skillCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/styles/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/styles/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/protfolio.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/protfolio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lebenslauf.pdf" beforeDir="false" />
+>>>>>>> 770b958 (Revamp website)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1vMpSCUKd3t0ly9Yu1MVW8s3yvm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,6 +117,7 @@
       <workItem from="1627401405008" duration="1118000" />
       <workItem from="1627402673559" duration="4080000" />
       <workItem from="1627419045952" duration="768000" />
+      <workItem from="1654427526317" duration="4148000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,10 @@ Skills.TerminalContainer = function SkillsTerminalContainer({ children, ...restP
 Skills.ListContainer = function SkillsListContainer({ children, ...restProps }) {
   return <ListContainer {...restProps}>{children}</ListContainer>;
 };
-Skills.List = function SkillsList({ children, ...restProps }) {
-  return <List {...restProps}>{children}</List>;
+Skills.List = function SkillsList({ children, start = false, ...restProps }) {
+  return (
+    <List {...restProps} start={start}>
+      {children}
+    </List>
+  );
 };

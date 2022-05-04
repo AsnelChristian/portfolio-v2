@@ -1,5 +1,21 @@
 [
   {
+    "title": "Freshr",
+    "image": "/images/Github_Logo.png",
+    "link": "https://github.com/AsnelChristian/freshr-app",
+    "description": "Freshr is a mobile appointment booking app, for babers, babershops.",
+    "technologies": [
+      {"name":  "js", "icon": "javascript"},
+      {"name":  "sass", "icon": "sass"},
+      {"name":  "html5", "icon": "html5"},
+      {"name":  "firebase", "icon": "firebase"},
+      {"name":  "react", "icon": "react"},
+      {"name":  "node.js", "icon": "node-dot-js"},
+      {"name":  "git", "icon": "git"},
+      {"name":  "mongodb", "icon": "mongodb"}
+    ]
+  },
+  {
     "title": "Observers",
     "image": "/images/the.png",
     "link": "https://theobservers.org",
@@ -16,7 +32,7 @@
   {
     "title": "Fund lives",
     "image": "/images/fundlives.png",
-    "link": "https://fundlives.com",
+    "link": "https://github.com/AsnelChristian/flives",
     "description": "FundLives is a fundraising platform that provides a quick, transparent, and easy way of raising funds for charitable causes or projects that matter to you.",
     "technologies": [
       {"name":  "js", "icon": "javascript"},

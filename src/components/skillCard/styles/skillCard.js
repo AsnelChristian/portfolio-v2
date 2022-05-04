@@ -14,7 +14,6 @@ export const Card = styled.div`
 
   box-shadow: ${(props) => (props.active && props.shadow ? props.theme.shadows.blend2 : 'none')};
   background-color: ${(props) => (props.active && props.shadow ? 'transparent' : props.theme.colors.white)};
-
   &:hover {
     box-shadow: ${(props) => props.theme.shadows.blend};
     background-color: transparent;
@@ -23,6 +22,7 @@ export const Card = styled.div`
     box-shadow: ${(props) => props.theme.shadows.blend2};
     background-color: transparent;
   }
+  border: ${({ border, theme }) => (border ? `1px solid ${theme.colors.black}` : '0px solid white')};
 `;
 
 export const CardIcon = styled.svg`

@@ -1,38 +1,103 @@
 {
-  "main": "I write programs...",
+  "main": "Who ?",
   "clauses": ["Software developer with a passion for web development and data science.", "Use my full potential for the advancement and innovation in the beautiful world of software engineering so as to design useful and efficient applications that will suit our end-users needs. <b style='color: #2dd881'></b>."],
   "timeline": [
     {
-      "row": 4,
-      "length": 5,
-      "start": 0,
-      "title": "BSc. Computer Science",
-      "description": "Completed a bachelor in computer science at the University of Buea (Cameroon).",
-      "period": "2014-18"
+      "type": "work",
+      "title": "Student Full-stack developer ~~ Shaire",
+      "tasks": [
+        "Implementing & designing components for mobile app and in-app games",
+        "Documenting database",
+        "Integrating React web apps with API"
+      ],
+      "stack": [
+        {"name":  "react", "icon": "react"},
+        {"name":  "js", "icon": "javascript"},
+        {"name":  "sass", "icon": "sass"},
+        {"name":  "html5", "icon": "html5"},
+        {"name":  "python", "icon": "python"},
+        {"name":  "mysql", "icon": "mysql"},
+        {"name":  "git", "icon": "git"}
+      ],
+      "description": "Contributed to the growth of the company as a full-stack developer, contributing to the realization of client's web apps",
+      "period": "May 2022 ~ Present"
+    },
+    {
+      "type": "work",
+      "title": "Student developer ~~ ADVA",
+      "tasks": [
+        "Developed and improved pipelines for Continuous Integration and Development.",
+        "Built and integrated a networking visualization library for simulation projects.",
+        "Migrated projects from Maven to Gradle to ease dependencies management.",
+        "Implementing unit tests to ensure good code coverage."
+      ],
+      "stack": [
+        {"name":  "java", "icon": "java"},
+        {"name":  "git", "icon": "git"},
+        {"name":  "js", "icon": "javascript"},
+        {"name":  "docker", "icon": "docker"}
+      ],
+      "description": "",
+      "period": "September 2021 ~ June 2022"
     },
     {
       "row": 3,
       "length": 2,
       "start": 2,
-      "title": "Code maintainer",
+      "type": "work",
+      "title": "Code maintainer ~~ coala.io",
+      "tasks": [
+        "Added support for 10+ linting tools to coala extending to support much more languages.",
+        "Unified configurations across more than 90% of the supported linting tools, thus improving consistency and ease of use.",
+        "Added support and documentation for aspect based code quality checking.",
+        "Reviewed pull requests and helped newcomers to get started with open source in the community."
+      ],
+      "stack": [
+        {"name":  "python", "icon": "python"}
+      ],
       "description": "Contributed to the extension of the open-source project coala.io, through the google summer of code program.",
-      "period": "2016-17"
+      "period": "May 2016 ~ December 17"
     },
     {
       "row": 2,
       "length": 2,
       "start": 5,
-      "title": "Freelance developer",
-      "description": "Was hired and worked on a few web development projects as a full stack developer.",
-      "period": "2019-20"
+      "type": "work",
+      "tasks": [
+        "Designed the NGO web sharing plaform with Adobe XD.",
+        "Designed and implemented the database and REST API with Node.js and express.js.",
+        "Implemented the website with HTML / SASS / and javascript.",
+        "Added support for Oauth to facilitate the onboarding process."
+      ],
+      "stack": [
+        {"name":  "js", "icon": "javascript"},
+        {"name":  "sass", "icon": "sass"},
+        {"name":  "html5", "icon": "html5"},
+        {"name":  "git", "icon": "git"},
+        {"name":  "mongodb", "icon": "mongodb"}
+      ],
+      "title": "Full-stack developer ~~ Jade cameroon",
+      "description": "Designed and developed and information sharing platform for Jade Cameroon.",
+      "period": "June 2019 ~ January 20"
     },
     {
       "row": 1,
       "length": 2,
       "start": 6,
-      "title": "MSc. Web and Data Science",
+      "type": "education",
+      "tasks": [],
+      "stack": [],
+      "title": "MSc. Web and Data Science ~~ University of Koblenz Landau",
       "description": "At the University of Koblenz Landau (Germany).",
-      "period": "2020~"
+      "period": "October 2020 ~ Present"
+    },
+    {
+      "type": "education",
+      "title": "BSc. Computer Science ~~ University of Buea",
+      "description": "Completed a bachelor in computer science at the University of Buea (Cameroon).",
+      "tasks": [],
+      "stack": [],
+      "period": "October 2014 ~ December 18"
     }
   ]
 }

@@ -7,7 +7,7 @@ import useDocumentScrollThrottled from '../hooks/useDocumentScrollThrottled';
 import contactData from '../fixtures/contact.json';
 import heroData from '../fixtures/hero.json';
 
-import resumePdf from '../lebenslauf.pdf';
+import resumePdf from "../Asnel Christian's Resume.pdf";
 
 export function HeaderContainer() {
   const [showNavBar, setShowNavBar] = useState(true);
@@ -45,7 +45,7 @@ export function HeaderContainer() {
             </NavHashLink>
           ))}
 
-          <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
+          <Link to={resumePdf} target="_blank" rel="opener referrer">
             <Button primary>
               <span>Resumé</span>
             </Button>
@@ -70,7 +70,7 @@ export function HeaderContainer() {
             <Typography.HeroMini>{phrase}</Typography.HeroMini>
           ))}
           <Header.CTA>
-            <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
+            <Link to={resumePdf} target="_blank" rel="noopener noreferrer">
               <Button primary>
                 <span>Resumé</span>
               </Button>
