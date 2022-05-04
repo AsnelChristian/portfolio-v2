@@ -6,7 +6,8 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Typography, ContactForm, Button } from '../components';
 
-import emailKey from '../emailKey';
+
+const {USER_ID, SERVICE_ID, TEMPLATE_ID} = process.env
 
 export function ContactContainer() {
   const {
@@ -17,7 +18,7 @@ export function ContactContainer() {
 
   function sendFeedback(variables) {
     emailjs
-      .send(emailKey.SERVICE_ID, emailKey.TEMPLATE_ID, variables, emailKey.USER_ID)
+      .send(SERVICE_ID, TEMPLATE_ID, variables, USER_ID)
       .then((res) => {
         store.addNotification({
           title: 'Success',
