@@ -5,8 +5,7 @@ export const ControlButton = styled.div`
   height: 1.5rem;
   margin-right: 0.7rem;
   border-radius: 100%;
-  background-color: ${(props) =>
-    props.color === 'red' ? '#f96256' : props.color === 'yellow' ? '#fdbc3d' : '#33c948'};
+  background-color: ${(props) => props.color === 'red' ? '#f96256' : '#fdbc3d' };
 `;
 
 export const ControlBar = styled.div`
