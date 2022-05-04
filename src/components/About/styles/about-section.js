@@ -60,7 +60,7 @@ export const DescriptionImageContainer = styled.div`
   overflow: hidden;
   border-radius: 2rem;
   box-shadow: 0 10px 50px rgba(0, 21, 64, 0.128559);
-  background-image: url('/images/IMG_4445.jpg');
+  background-image: url('/images/profile.jpg');
   background-size: cover;
   object-fit: cover;
   max-width: 45rem;
