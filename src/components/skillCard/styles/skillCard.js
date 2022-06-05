@@ -9,20 +9,10 @@ export const Card = styled.div`
   padding: 1rem;
   justify-content: center;
   margin: 0.5rem;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 
   box-shadow: ${(props) => (props.active && props.shadow ? props.theme.shadows.blend2 : 'none')};
   background-color: ${(props) => (props.active && props.shadow ? 'transparent' : props.theme.colors.white)};
-
-  &:hover {
-    box-shadow: ${(props) => props.theme.shadows.blend};
-    background-color: transparent;
-  }
-  &:active {
-    box-shadow: ${(props) => props.theme.shadows.blend2};
-    background-color: transparent;
-  }
 `;
 
 export const CardIcon = styled.svg`

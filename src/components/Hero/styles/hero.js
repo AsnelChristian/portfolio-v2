@@ -51,6 +51,8 @@ export const HeroCTA = styled.ul`
 export const BgContainer = styled.div`
   position: absolute;
   top: calc(50% + 5rem);
+  display: flex;
+  overflow: hidden;
   width: 50%;
   right: 0;
   transform: translateY(-50%);
