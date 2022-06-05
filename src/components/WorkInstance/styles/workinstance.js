@@ -104,8 +104,8 @@ export const View = styled.img`
   right: 0;
   top: 0;
   bottom: 0;
-  background-size: cover;
-  object-fit: cover;
+  background-size: contain;
+  object-fit: contain;
   @media ${(props) => props.theme.breakpoints.phone} {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;

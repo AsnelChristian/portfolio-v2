@@ -4,6 +4,8 @@ import About from '../components/About';
 import TimelineTile from '../components/Tile';
 
 import aboutData from '../fixtures/about.json';
+import { TimeLine } from '../components/TimeLine';
+import { SkillCard, Skills } from '../components';
 
 export function AboutContainer() {
   return (
@@ -18,18 +20,26 @@ export function AboutContainer() {
         </About.DescriptionStory>
         <About.DescriptionImage />
       </About.Description>
-      {/* <Typography.SubSectionTitle>My timeline</Typography.SubSectionTitle> */}
-      <About.Timeline>
-        {aboutData.timeline.map((timeline) => (
-          <TimelineTile row={timeline.row} length={timeline.length} start={timeline.start}>
-            <TimelineTile.Description>
-              <TimelineTile.Title>{timeline.title}</TimelineTile.Title>
-              <TimelineTile.Info>{timeline.description}</TimelineTile.Info>
-            </TimelineTile.Description>
-            <TimelineTile.Period>{timeline.period}</TimelineTile.Period>
-          </TimelineTile>
-        ))}
-      </About.Timeline>
+      <div style={{ marginTop: 30 }} />
+      <Typography.SectionTitle>Experience and Education</Typography.SectionTitle>
+      {aboutData.timeline.map((timeline) => (
+        <TimeLine variant={timeline.type}>
+          <TimelineTile.Title>{timeline.title}</TimelineTile.Title>
+          <TimelineTile.Period>{timeline.period}</TimelineTile.Period>
+          <TimelineTile.Info>{timeline.description}</TimelineTile.Info>
+          <div style={{ marginTop: 16 }} />
+          {timeline.tasks.map((task) => (
+            <TimelineTile.Info>&rarr; {task}</TimelineTile.Info>
+          ))}
+          <Skills.ListContainer>
+            <Skills.List start>
+              {timeline.stack.map((lang, index) => (
+                <SkillCard name={lang.name} ico={lang.icon} key={index} border />
+              ))}
+            </Skills.List>
+          </Skills.ListContainer>
+        </TimeLine>
+      ))}
     </About>
   );
 }

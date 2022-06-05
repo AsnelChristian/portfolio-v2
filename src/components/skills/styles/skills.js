@@ -53,7 +53,7 @@ export const List = styled.div`
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: flex-start;
     justify-content: flex-start;

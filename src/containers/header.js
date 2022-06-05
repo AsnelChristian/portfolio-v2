@@ -3,14 +3,14 @@ import { NavHashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
 import ParticleImage from 'react-particle-image';
-import { Navigation, Typography, NavLink, Button, Header, BgAnimation, StickyInfo } from '../components';
+import { Navigation, Typography, NavLink, Button, Header, StickyInfo } from '../components';
 import useDocumentScrollThrottled from '../hooks/useDocumentScrollThrottled';
 import mainLogo from './icon_me.png';
 
 import contactData from '../fixtures/contact.json';
 import heroData from '../fixtures/hero.json';
 
-import resumePdf from '../lebenslauf.pdf';
+import resumePdf from "../Asnel Christian's Resume.pdf";
 
 const particleOptions = {
   filter: ({ x, y, image }) => {
@@ -58,7 +58,7 @@ export function HeaderContainer() {
             </NavHashLink>
           ))}
 
-          <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
+          <Link to={resumePdf} target="_blank" rel="opener referrer">
             <Button primary>
               <span>Resumé</span>
             </Button>
@@ -83,7 +83,7 @@ export function HeaderContainer() {
             <Typography.HeroMini>{phrase}</Typography.HeroMini>
           ))}
           <Header.CTA>
-            <Link to={resumePdf} target="_blank" download="asnel_resume.pdf" rel="noopener noreferrer">
+            <Link to={resumePdf} target="_blank" rel="noopener noreferrer">
               <Button primary>
                 <span>Resumé</span>
               </Button>
