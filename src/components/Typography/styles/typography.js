@@ -8,6 +8,7 @@ export const SectionTitle = styled.h2`
   text-transform: uppercase;
   position: relative;
   margin-bottom: 4rem;
+  color: ${(props) => props.theme.colors.primary1};
 
   &::after {
     content: '';
@@ -17,7 +18,7 @@ export const SectionTitle = styled.h2`
     transform: translateY(-50%);
     width: 6rem;
     height: 0.4rem;
-    background-color: ${(props) => props.theme.colors.black};
+    background-color: ${(props) => props.theme.colors.primary1};
   }
 `;
 
@@ -28,25 +29,30 @@ export const SubSectionTitle = styled.h3`
 `;
 export const HeroMainText = styled.h1`
   font-size: clamp(2rem, 8vw, 6rem);
+  color: ${(props) => props.theme.colors.primary1};
   width: max-content;
   margin-top: -0.1rem;
   margin-bottom: 2rem;
 `;
 export const HeroSubText = styled.h2`
   font-size: 3rem;
+  color: ${(props) => props.theme.colors.white};
 `;
 export const HeroMiniText = styled.h3`
   line-height: 3rem;
   font-size: 2rem;
+  color: ${(props) => props.theme.colors.white};
 `;
 
 export const AboutMain = styled.h2`
   font-size: 4rem;
   margin-bottom: 3rem;
+  color: ${(props) => props.theme.colors.primary2};
 `;
 
 export const Clause = styled.p`
   line-height: 3rem;
+  color: ${(props) => props.theme.colors.white};
   font-weight: 400;
   margin-top: 2rem;
 `;

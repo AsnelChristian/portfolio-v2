@@ -42,8 +42,10 @@ export const CardDescription = styled.div`
 export const CardTitle = styled.h4`
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  color: ${(props) => props.theme.colors.primary1};
 `;
 export const CardInfo = styled.p`
+  color: ${(props) => props.theme.colors.white};
   font-family: ${(props) => props.theme.fonts.nav};
   font-style: italic;
   font-size: 1.4rem;
@@ -57,6 +59,7 @@ export const CardPeriod = styled.div`
   font-size: 2rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
+  color: ${(props) => props.theme.colors.primary1};
   font-family: ${(props) => props.theme.fonts.nav};
   min-width: max-content;
 `;

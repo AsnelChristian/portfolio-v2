@@ -4,7 +4,7 @@ export const NavBar = styled.div`
   display: ${(props) => (props.show ? 'flex' : 'flex')};
   opacity: ${(props) => (props.show ? '1' : '0')};
   transform: ${(props) => (props.show ? 'translateY(0)' : 'translateY(-4rem)')};
-  background-color: ${(props) => (props.shadow ? 'rgba(255, 255, 255, .4)' : 'transparent')};
+  background-color: ${(props) => (props.shadow ? 'rgba(0, 52, 89, .4)' : 'transparent')};
   box-shadow: ${(props) => (props.shadow ? '0px 3px 8px rgba(0,0,0,0.1)' : 'none')};
   backdrop-filter: ${(props) => (props.shadow ? 'blur(10px)' : 'none')};
 

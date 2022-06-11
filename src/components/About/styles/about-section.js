@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: start;
   margin: 0 8rem;
+  
   padding-top: 12rem;
   position: relative;
   @media ${(props) => props.theme.breakpoints.md} {

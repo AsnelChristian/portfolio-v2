@@ -20,13 +20,7 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  padding: 4rem;
-  @media ${(props) => props.theme.breakpoints.lg} {
-    padding: 2.5rem;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 1.5rem;
-  }
+  padding: 0;
   @media ${(props) => props.theme.breakpoints.phone} {
     padding: 0;
     box-shadow: ${(props) => props.theme.shadows.blend};
@@ -83,7 +77,7 @@ export const ViewContainer = styled.a`
     z-index: 30;
     background: linear-gradient(
       to right bottom,
-      rgba(255, 255, 255, 0.3),
+      rgba(0, 52, 89, 0.5),
       rgba(${(props) => props.theme.colors.ternary2}, 0.4)
     );
     transition: opacity 0.3s ease-in-out;
@@ -105,7 +99,6 @@ export const View = styled.img`
   top: 0;
   bottom: 0;
   background-size: contain;
-  object-fit: contain;
   @media ${(props) => props.theme.breakpoints.phone} {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -117,7 +110,7 @@ export const Title = styled.a`
   margin-bottom: 4rem;
   font-size: 2.5rem;
   text-decoration: none;
-  color: ${(props) => props.theme.colors.black};
+  color: ${(props) => props.theme.colors.primary2};
   cursor: pointer;
   transition: all 0.2s ease;
   position: relative;
@@ -138,7 +131,7 @@ export const Title = styled.a`
 
 export const InfoContainer = styled.div`
   grid-row: 1/-1;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 52, 89, 0.8);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   z-index: 15;
@@ -172,7 +165,7 @@ export const InfoContainer = styled.div`
 `;
 export const DescContainer = styled.div`
   padding: 3rem 3rem;
-  background-color: rgba(0, 52, 89, 0.8);
+  background-color: rgba(0, 52, 89, 0.9);
   max-height: 20rem;
   overflow: hidden;
   width: 100%;
@@ -191,6 +184,9 @@ export const DescContainer = styled.div`
   box-shadow: ${(props) => props.theme.shadows.blend};
 `;
 export const ToolsContainer = styled.ul`
+  padding: 1rem 0.2rem;
+  border-radius: 10px;
+  background-color: rgba(0, 52, 89, 0.9);
   max-width: 100%;
   @media ${(props) => props.theme.breakpoints.lg} {
     max-width: 100%;
@@ -205,8 +201,6 @@ export const ToolsContainer = styled.ul`
   & > * {
     &:not(last-child) {
       cursor: default;
-      margin-left: ${(props) => (props.flow ? '1rem' : '0')};
-      margin-right: ${(props) => (props.flow ? '0' : '1rem')};
       background: ${(props) => props.theme.colors.background1} !important;
       padding: 1rem;
       box-shadow: ${(props) => props.theme.shadows.blend} !important;

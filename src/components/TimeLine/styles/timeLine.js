@@ -25,9 +25,10 @@ export const IndicatorHoriz = styled.div`
 
 export const InfoContainer = styled.div`
   height: 95%;
-  background-color: white;
+  background-color: rgba(0, 66, 89, 0.8);
   flex: 1;
   display: flex;
+  border-radius: 10px;
   flex-direction: column;
   padding: 35px 25px 25px;
   justify-content: center;

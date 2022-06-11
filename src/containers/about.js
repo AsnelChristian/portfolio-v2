@@ -13,7 +13,7 @@ export function AboutContainer() {
       <Typography.SectionTitle>About me</Typography.SectionTitle>
       <About.Description>
         <About.DescriptionStory>
-          <Typography.AboutMain>{aboutData.main}</Typography.AboutMain>
+          {/* <Typography.AboutMain>{aboutData.main}</Typography.AboutMain> */}
           {aboutData.clauses.map((clause) => (
             <Typography.Clause>{parse(clause)}</Typography.Clause>
           ))}

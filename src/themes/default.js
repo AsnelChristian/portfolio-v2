@@ -8,7 +8,7 @@ export default {
   // Colors for layout
   colors: {
     white: '#fff',
-    background1: 'linear-gradient(180deg,#fefaf6 2.42%,#fdf5ee)',
+    background1: '#003459',
     background2: '#fdf5ef',
     background3: 'linear-gradient(to left,#2dd881,#2278BF)',
     background4: 'linear-gradient(to right,#2dd881,#2278BF)',

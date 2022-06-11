@@ -5,7 +5,7 @@ export const Link = styled.span`
   text-decoration: none;
   font-size: 2rem;
   font-family: ${(props) => props.theme.fonts.nav};
-  color: ${(props) => props.theme.colors.black};
+  color: ${(props) => props.theme.colors.white};
   display: inline-flex;
   position: relative;
   transition: all 0.2s;

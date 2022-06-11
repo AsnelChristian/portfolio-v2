@@ -6,13 +6,12 @@ export const Card = styled.div`
   align-items: center;
   height: 7.5rem;
   width: 7.5rem;
-  padding: 1rem;
   justify-content: center;
-  margin: 0.5rem;
   transition: all 0.2s ease-in-out;
 
   box-shadow: ${(props) => (props.active && props.shadow ? props.theme.shadows.blend2 : 'none')};
-  background-color: ${(props) => (props.active && props.shadow ? 'transparent' : props.theme.colors.white)};
+  background-color: ${(props) => props.theme.colors.background1};
+  color: ${(props) => props.theme.colors.white};
   border: ${({ border, theme }) => (border ? `1px solid ${theme.colors.black}` : '0px solid white')};
 `;
 

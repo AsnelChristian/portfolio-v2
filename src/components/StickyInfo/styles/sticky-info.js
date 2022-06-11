@@ -23,7 +23,7 @@ export const StickyLink = styled.a`
   display: flex;
   text-decoration: none;
   cursor: pointer;
-  color: ${(props) => props.theme.colors.black};
+  color: ${(props) => props.theme.colors.white};
   transition: all 0.2s ease-in;
 
   & > span {
@@ -41,7 +41,7 @@ export const StickyLink = styled.a`
     &:not(last-child) {
       margin-top: 2.3rem;
     }
-    fill: ${(props) => props.theme.colors.black};
+    fill: ${(props) => props.theme.colors.white};
     transition: all 0.2s ease-in;
 
     @media ${(props) => props.theme.breakpoints.phone} {
@@ -75,5 +75,5 @@ export const StickyDash = styled.div`
   @media ${(props) => props.theme.breakpoints.phone} {
     height: 2rem;
   }
-  background-color: ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.primary1};
 `;

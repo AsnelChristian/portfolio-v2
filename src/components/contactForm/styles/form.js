@@ -28,8 +28,8 @@ export const FormContainer = styled.div`
   grid-template-columns: repeat(12, 1fr);
   border-radius: 3rem;
   overflow: hidden;
-  background: white;
-  color: ${(props) => props.theme.colors.black};
+  background-color: rgba(0, 66, 89, 0.8);
+  color: ${(props) => props.theme.colors.white};
 `;
 
 export const Form = styled.form`
@@ -69,15 +69,16 @@ const textField = css`
   padding: 1rem;
   font-size: 1.4rem;
   width: 100%;
-  background-color: rgba(253, 245, 239, 0.6);
+  background-color: rgba(0, 52, 89, 0.6);
   outline: none;
   border: 0.2rem solid transparent;
-  border-bottom-color: rgba(${(props) => props.theme.colors.ternary2}, 0.4);
+  border-bottom-color: rgba(${(props) => props.theme.colors.primary1}, 1);
   font-family: inherit;
 
   &:focus {
+    color: ${(props) => props.theme.colors.white};
     outline: none;
-    border-bottom-color: ${(props) => props.theme.colors.black};
+    border-bottom-color: ${(props) => props.theme.colors.primary2};
     box-shadow: 0 1rem 2rem rgba(${(props) => props.theme.colors.black}, 0.1);
   }
   &:focus:invalid {
@@ -105,7 +106,7 @@ export const Label = styled.label`
   margin-left: 1rem;
   margin-top: 0.7rem;
   display: block;
-  color: ${(props) => props.theme.colors.black};
+  color: ${(props) => props.theme.colors.white};
   transition: all 0.2s ease-in-out;
 `;
 
