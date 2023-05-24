@@ -8,6 +8,7 @@ export const SectionTitle = styled.h2`
   text-transform: uppercase;
   position: relative;
   margin-bottom: 4rem;
+  color: ${(props) => props.theme.colors.primary2};
 
   &::after {
     content: '';
@@ -17,7 +18,7 @@ export const SectionTitle = styled.h2`
     transform: translateY(-50%);
     width: 6rem;
     height: 0.4rem;
-    background-color: ${(props) => props.theme.colors.black};
+    background-color: ${(props) => props.theme.colors.primary2};
   }
 `;
 

@@ -65,7 +65,7 @@ export function HeaderContainer() {
       <Header id="Home">
         <Header.Hero>
           <Typography.HeroSub>{heroData.salutation}</Typography.HeroSub>
-          <Typography.HeroMain>{heroData.name}</Typography.HeroMain>
+          <Typography.HeroMain style={{ color: '#2dd881' }}>{heroData.name}</Typography.HeroMain>
           {heroData.catchPhrases.map((phrase) => (
             <Typography.HeroMini>{phrase}</Typography.HeroMini>
           ))}

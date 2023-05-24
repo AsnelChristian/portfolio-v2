@@ -28,19 +28,5 @@
       {"name":  "git", "icon": "git"},
       {"name":  "mongodb", "icon": "mongodb"}
     ]
-  },
-  {
-    "title": "Fund lives",
-    "image": "/images/fundlives.png",
-    "link": "https://github.com/AsnelChristian/flives",
-    "description": "FundLives is a fundraising platform that provides a quick, transparent, and easy way of raising funds for charitable causes or projects that matter to you.",
-    "technologies": [
-      {"name":  "js", "icon": "javascript"},
-      {"name":  "sass", "icon": "sass"},
-      {"name":  "html5", "icon": "html5"},
-      {"name":  "python", "icon": "python"},
-      {"name":  "flask", "icon": "flask"},
-      {"name":  "git", "icon": "git"}
-    ]
   }
 ]
